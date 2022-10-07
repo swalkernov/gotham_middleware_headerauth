@@ -1,0 +1,19 @@
+[package]
+name = "gotham_middleware_headerauth"
+version = "0.1.0"
+edition = "2021"
+description = "A basic middleware for using request header data from upstream reverse proxies as authentication sources in gotham Web services."
+publish = true
+license = "Apache-2.0"
+keywords = [ "gotham", "web", "authentication", "proxy" ]
+categories = [ "web-programming" ]
+authors = [ "Novecom Pty Limited" ]
+repository = "https://github.com/swalkernov/gotham_middleware_headerauth.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures-util = "0.3"
+gotham = "0.7"
+gotham_derive = "0.7"
+mime = "0.3"

@@ -1,0 +1,4 @@
+This is a simple convenience middleware for extracting authentication information
+when a Gotham framework web service (https://gotham.rs) is sitting behind a separate
+service (e.g., reverse proxy like Apache) where the separate service performs
+authentication and populates authentication information into request headers.
